@@ -1,5 +1,5 @@
-OpenStack project resources cleaner
-===================================
+OpenStack project resources cleaner with keystone v3 support
+============================================================
 
 * ``ospurge`` is a standalone, client-side, operators tool that aims at
   deleting all resources, taking into account their interdependencies,
@@ -60,7 +60,7 @@ Install ``ospurge`` with ``pip``:
 
 .. code-block:: console
 
-    $ pip install ospurge
+    $ pip install git+https://github.com/esracelik/ospurge.git@master
 
 Available options can be displayed by using ``ospurge -h``:
 
